@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+    <title>Bootstrap intro</title>
+    <style>
+        .title {
+            font-size: 2rem;
+        }
+
+        /* from 0 to a max of 575px |0 -------------- 575|*/
+        /* @media (max-width: 575px) {
+            h1 {
+                font-size: 2rem;
+            }
+        } */
+
+        /* from 576 to a max of 767px  |576 -------------- 767| */
+        /* @media (min-width: 576px) and (max-width: 767px) {
+            h1 {
+                font-size: 3rem;
+            }
+        } */
+
+        /* | form the specified viewport size to infinite ------------------------------------------------------...... */
+
+
+        @media (min-width: 576px) {
+            .title-sm {
+                font-size: 2.5rem;
+                background-color: aquamarine;
+                text-align: right;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .title-md {
+                font-size: 4rem;
+                text-align: center;
+                background-color: coral;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .title-lg {
+                font-size: 6rem;
+                text-align: right;
+                color: white;
+                background-color: rebeccapurple;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="title-sm title-md title-lg">Main title</h1>
+    <h1 class="title-md">Main title</h1>
+    <h1 class="title-sm title-lg">Main title</h1>
+    <h1>Main title</h1>
+
+</body>
+
+</html>
